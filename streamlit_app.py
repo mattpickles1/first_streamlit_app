@@ -8,7 +8,7 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 
 
 
-streamlit.title('My Mom´s New Healthy Diner')
+streamlit.title("My Mom's New Healthy Diner")
 
 streamlit.header('Breakfast Favorites')
 streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
