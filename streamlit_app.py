@@ -33,6 +33,9 @@ def get_fruityvice_data(this_fruit_choice):
     fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())  
     return fruityvice_normalized
 
+#breakpoint to check funtion def
+streamlit.stop()
+
 #new section to show Fruity Vice API data
 streamlit.header("Fruityvice Fruit Advice!")
 try:
