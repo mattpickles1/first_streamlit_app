@@ -30,9 +30,9 @@ streamlit.dataframe(fruits_to_show)
 #new section to show Fruity Vice API data
 streamlit.header("Fruityvice Fruit Advice!")
 try:
-fruit_choice = streamlit.text_input('What fruit would you like information about?')
+  fruit_choice = streamlit.text_input('What fruit would you like information about?')
 if not fruit_choice:
-  streamlit.error("Please select a fruit to get mor information.")
+  streamlit.error("Please select a fruit to get more information.")
 else
 
 #take the json version of the reponse and normalize it and output the screen as a table
