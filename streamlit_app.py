@@ -34,7 +34,7 @@ def get_fruityvice_data(this_fruit_choice):
     return fruityvice_normalized
 
 #new section to show Fruity Vice API data
-streamlit.header("Fruityvice Fruit Advice!")
+streamlit.header("View our fruit list - Add your favorites!")
 try:
   fruit_choice = streamlit.text_input('What fruit would you like information about?')
   if not fruit_choice:
@@ -65,9 +65,6 @@ try:
 
 except URLError as e:
     streamlit.error()
-
-#breakpoint
-streamlit.stop()
 
 streamlit.text("The fruit load list contains:")
 
